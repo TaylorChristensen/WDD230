@@ -1,0 +1,147 @@
+#content {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #184E77;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+#head1 {
+    color: white;
+    font-size: xx-large;
+}
+
+#head2 {
+    color: white;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+
+#head3 {
+    color: white;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+
+#head4 {
+    color: white;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+
+#colorBoxes {
+    height: 200px;
+    width: 100%;
+}
+
+#color1 {
+    background-color: #d9ed92;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    
+}
+#color2 {
+    background-color: #b5e48c;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color3 {
+    background-color: #99d98c;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin-left: 10px;
+}
+#color4 {
+    background-color: #76C893;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color5 {
+    background-color: #52B69A;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color6 {
+    background-color: #34A0A4;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color7 {
+    background-color: #168AAD;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color8 {
+    background-color: #1A759F;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color9 {
+    background-color: #1E6091;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color10 {
+    background-color: #184E77;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+
+#scheme-link-box {
+    text-align: center;
+    border-style: double;
+    background-color: #52B69A;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    color: black;
+
+}
+
+#scheme-link {
+    font-size: x-large;
+    color: black;
+}
+
+#explanation-title {
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+#explanation {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#explanation-list {
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: #184E77;
+    color: white;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}

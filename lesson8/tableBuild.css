@@ -1,0 +1,31 @@
+caption {
+    background-color: #89CFF0;
+}
+
+table {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+th {
+    text-align: left;
+}
+
+caption, table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption, th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
