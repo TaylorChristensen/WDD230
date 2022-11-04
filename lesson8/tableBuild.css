@@ -1,12 +1,14 @@
 caption {
-    background-color: #89CFF0;
+    background-color: #0047AB;
+    color: white;
+    font-size: large;
 }
 
 table {
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 25px;
+    width: 20%;
+    margin-right:40%;
+    margin-left: 40%;
+    margin-top: 150px;
 }
 
 th {
@@ -28,4 +30,18 @@ tr:nth-child(even){
 
 tr:nth-child(odd){
     background-color: lightgray;
+}
+
+#head-color {
+    background-color: #89CFF0;
+}
+
+#aug-color {
+    background-color: #0047AB;
+    color: white;
+}
+
+#table-detail{
+    color: #0047AB;
+    text-align: center;
 }
