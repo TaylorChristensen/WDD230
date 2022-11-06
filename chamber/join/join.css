@@ -1,0 +1,9 @@
+body {
+    margin: 10px 100px 10px 100px;
+}
+
+.section-header {
+    background-color: purple;
+    color: white;
+    font-size: x-large;
+}
