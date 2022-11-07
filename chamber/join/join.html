@@ -24,48 +24,53 @@
         </nav>
     </header>
 
-    <div class="info-box">
-        <h1 class="section-header">Personal Information</h1>
-            <!-- <p>First Name</p> -->
-            <label for="input">First name</label>
-            <input type="text">
+    <form action="./thankyou.html" method="get">
+        <div class="info-box">
+            <h1 class="section-header">Personal Information</h1>
+                <table>
+                    
+                    <!-- <p>First Name</p> -->
+                    <label for="input-fName">First Name</label> <br>
+                    <input id="input-fName" name="input-fName" type="text"> <br>
+                    
+                    <!-- <p>Last Name</p> -->
+                    <label for="input-lName">Last Name</label> <br>
+                    <input id="input-lName" type="text">
+                    
+                    <p>Email</p>
+                    <input type="email" placeholder="jonDoe@Gamil.com">
 
-            <p>Last Name</p>
-            <input type="text">
+                    <p>Cell Phone Number</p>
+                    <input type="tel">
+                </table>
+        </div>
 
-            <p>Email</p>
-            <input type="text">
+        <div class="info-box">
+            <h2 class="section-header">Business Information</h2>
+                <p>Personal Title (Held within the Business)</p>
+                <input type="text">
 
-            <p>Cell Phone Number</p>
-            <input type="text">
-    </div>
+                <p>Business Name</p>
+                <input type="text">
 
-    <div class="info-box">
-        <h2 class="section-header">Business Information</h2>
-            <p>Business Title</p>
-            <input type="text">
+                <p>Business Description</p>
+                <textarea name="busDesc" id="busDescBox" cols="30" rows="10"></textarea>
+        </div>
 
-            <p>Business Name</p>
-            <input type="text">
+        <div class="info-box">
+            <h3 class="section-header">Prefered Membership Level</h3>
+                <p>NP Membership (for non profit organizations and there is no fee)</p>
+                    <p></p>
+                <p>Bronze Membership</p>
+                    <p></p>
+                <p>Silver Membership</p>
+                    <p></p>
+                <p>Gold Membership</p>
+                    <p></p>
+        </div>
 
-            <p>Business Description</p>
-            <textarea name="busDesc" id="busDescBox" cols="30" rows="10"></textarea>
-    </div>
-
-    <div class="info-box">
-        <h3 class="section-header">Prefered Membership Level</h3>
-            <p>NP Membership (for non profit organizations and there is no fee)</p>
-                <p></p>
-            <p>Bronze Membership</p>
-                <p></p>
-            <p>Silver Membership</p>
-                <p></p>
-            <p>Gold Membership</p>
-                <p></p>
-    </div>
-
-    <form action="meathod">
-        <button id="submit-btn">
+        
+        <button id="submit-btn" type="submit">
             Submit
         </button>
     </form>
@@ -77,5 +82,7 @@
         <p>+(208) 123-4567</p>
         <p>2022 Rexburg Chamber | Taylor Christensen | WDD230 Project</p>
     </footer>
+
+    <script src="./join.js"></script>
 </body>
 </html>
