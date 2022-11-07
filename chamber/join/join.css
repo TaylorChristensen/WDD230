@@ -65,9 +65,13 @@ nav {
 }
 
 .section-header {
-    background-color: purple;
+    background-color: #168AAD;
     color: white;
     font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     /* margin: 10px 100px 10px 10px; */
 }
 
@@ -76,6 +80,14 @@ nav {
     margin-right: 100px;
 }
 
+#submit-btn {
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: #76C893;
+    border-radius: 15px;
+}
 
 footer {
     background-color: #1d0d63;
