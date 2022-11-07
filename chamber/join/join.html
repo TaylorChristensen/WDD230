@@ -19,7 +19,7 @@
         <nav>
             <a id="link1" href="index.html">Home</a>
             <a id="link2" href="./discover/discover.html">Discover</a>
-            <a id="link3" href="">Page 2</a>
+            <a id="link3" href="./join.html">Join</a>
             <a id="link4" href="">Page 3</a>
         </nav>
     </header>
@@ -27,46 +27,41 @@
     <form action="./thankyou.html" method="get">
         <div class="info-box">
             <h1 class="section-header">Personal Information</h1>
-                <table>
+                <label for="input-fName">First Name</label> <br>
+                <input id="input-fName" name="input-fName" type="text"> <br>
                     
-                    <!-- <p>First Name</p> -->
-                    <label for="input-fName">First Name</label> <br>
-                    <input id="input-fName" name="input-fName" type="text"> <br>
+                <label for="input-lName">Last Name</label> <br>
+                <input id="input-lName" type="text"> <br>
                     
-                    <!-- <p>Last Name</p> -->
-                    <label for="input-lName">Last Name</label> <br>
-                    <input id="input-lName" type="text">
-                    
-                    <p>Email</p>
-                    <input type="email" placeholder="jonDoe@Gamil.com">
+                <label for="input-email">Email</label> <br>
+                <input id="input-email" name="input-email" type="email" placeholder="jonDoe@Gamil.com" required> <br>
 
-                    <p>Cell Phone Number</p>
-                    <input type="tel">
-                </table>
+                <label for="input-cell">Cell Phone</label> <br>
+                <input id="input-cell" name="input-cell" type="tel">
         </div>
 
         <div class="info-box">
             <h2 class="section-header">Business Information</h2>
-                <p>Personal Title (Held within the Business)</p>
-                <input type="text">
+                <label for="input-title">Personal Title (Held within the Business)</label> <br>
+                <input id="input-title" name="input-title" type="text"><br>
 
-                <p>Business Name</p>
-                <input type="text">
+                <label for="input-BusName">Business Name</label><br>
+                <input id="input-BusName" name="input-BusName" type="text"><br>
 
-                <p>Business Description</p>
-                <textarea name="busDesc" id="busDescBox" cols="30" rows="10"></textarea>
+                <label for="input-busDesc">Business Description</label><br>
+                <textarea name="input-busDesc" id="busDescBox" cols="30" rows="10"></textarea>
         </div>
 
         <div class="info-box">
             <h3 class="section-header">Prefered Membership Level</h3>
-                <p>NP Membership (for non profit organizations and there is no fee)</p>
-                    <p></p>
+                <p class="membership-title">NP Membership (for non profit organizations and there is no fee)</p>
+                    <p class="membership-detail">Placeholder Text</p>
                 <p>Bronze Membership</p>
-                    <p></p>
+                    <p class="membership-detail">Placeholder Text</p>
                 <p>Silver Membership</p>
-                    <p></p>
+                    <p class="membership-detail">Placeholder Text</p>
                 <p>Gold Membership</p>
-                    <p></p>
+                    <p class="membership-detail">Placeholder Text</p>
         </div>
 
         

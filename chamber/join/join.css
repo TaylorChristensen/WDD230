@@ -85,6 +85,25 @@ nav {
     margin-right: 100px;
 }
 
+input {
+    width: 250px;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+}
+
+.membership-title {
+    color: black;
+}
+
+.membership-detail {
+    color: gray;
+    font-style: italic;
+    margin-left: 50px;
+}
+
 #submit-btn {
     margin-left: 100px;
     margin-top: 15px;
