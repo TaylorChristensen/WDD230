@@ -65,6 +65,10 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
+#form-div {
+    border: black;
+}
+
 .section-header input {
     display: inline-block;
 }
