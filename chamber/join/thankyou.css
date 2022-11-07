@@ -65,55 +65,35 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-.section-header input {
-    display: inline-block;
+#thankyou-msg {
+    margin: 200px 100px 200px 100px;
 }
 
-.section-header {
-    background-color: #168AAD;
-    color: white;
-    font-size: x-large;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
+#thankyou-msg2 {
+    background-color: #99D98C;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: -21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 10px;
-    /* margin: 10px 100px 10px 10px; */
+    padding-left: 10px;
 }
 
-.info-box {
-    margin-left: 100px;
-    margin-right: 100px;
+h1 {
+text-align: center;
+background-color: #168AAD;
+color: white;
+margin-left: 250px;
+margin-right: 250px;
 }
 
-input {
-    width: 250px;
-}
-
-textarea {
-    width: 450px;
-    height: 150px;
-}
-
-.membership-title {
-    color: black;
-    margin-left: 25px;
-}
-
-.membership-detail {
-    color: gray;
-    font-style: italic;
-    margin-left: 50px;
-}
-
-#submit-btn {
-    margin-left: 40%;
-    margin-top: 15px;
-    margin-right: 40%;
-    width: 20%;
-    height: 30px;
-    background-color: #76C893;
-    border-radius: 15px;
-
+p {
+text-align: center;
+/* background-color: #99D98C; */
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
 }
 
 footer {
@@ -125,3 +105,4 @@ footer {
     font-size: large;
     margin-top: 100px;
 }
+
