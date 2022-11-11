@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+    margin: 0% 0% 0% 0%;
+}
+
+header {
+    background-color: #184E77;
+    color: white;
+    padding: 1%;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards{
+    content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #184E77;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
