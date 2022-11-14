@@ -1,0 +1,31 @@
+{
+    "businesses": [
+      {
+        "name": "SodaVine",
+        "address": "123 fun road",
+        "phone": "(208)-123-4567",
+        "email": "testMail@gmail.com"
+      },
+
+      {
+        "name": "Freeman Clothing",
+        "address": "789 golden circle",
+        "phone": "(208)-123-4567",
+        "email": "testMail@gmail.com"
+      },
+
+      {
+        "name": "Broulims",
+        "address": "3000 Main Street",
+        "phone": "(208)-123-4567",
+        "email": "testMail@gmail.com"
+      },
+
+      {
+        "name": "Graffiti Hair Salon",
+        "address": "2016 Main Street",
+        "phone": "(208)-123-4567",
+        "email": "testMail@gmail.com"
+      }
+    ]
+}
