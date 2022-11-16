@@ -12,21 +12,30 @@
 <header>
     <div>
         <a id="logo_link" href="./index.html"></a>
-            <img class="logo" src="./images/RCoC Logo.jpg" alt="Logo">
+            <img class="logo" src="../lesson3/images/Rexburg Chamber Logo.jpg" alt="Logo">
         </a> 
     </div>    
     
-    <nav>
-        <a id="link1" href="index.html">Home</a>
-        <a id="link2" href="./discover/discover.html">Discover</a>
-        <a id="link3" href="">Page 2</a>
-        <a id="link4" href="">Page 3</a>
-    </nav>
+    <!-- <nav>
+        <a class="link" id="link1" href="index.html">Home</a>
+        <a class="link" id="link2" href="./discover/discover.html">Discover</a>
+        <a class="link" id="link3" href="">Page 2</a>
+        <a class="link" id="link4" href="">Page 3</a>
+    </nav> -->
+
+    <div class="menu-btn">
+        <div class="menu-btn-burger">
+            <!-- <a class="link" id="link1" href="index.html">Home</a>
+            <a class="link" id="link2" href="./discover/discover.html">Discover</a>
+            <a class="link" id="link3" href="./directory/directory.html">Directory</a>
+            <a class="link" id="link4" href="./join/join.html">Join</a> -->
+        </div>
+    </div>
 </header>
 
 <main>
     
-    <img id="hero-img" src="./images/wdd230-org.jpg" alt="Business Meeting">
+    <img id="hero-img" src="./images/wdd230 hero img.jpg" alt="Business Meeting">
     
 
     <p id="box-2">News Release</p>
@@ -56,6 +65,20 @@
     <p>+(208) 123-4567</p>
     <p>2022 Rexburg Chamber | Taylor Christensen | WDD230 Project</p>
 </footer>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    let menuOpen = false;
+    menuBtn.addEventListener('click',() => {
+        if(!menuOpen) {
+            menuBtn.classList.add('open');
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menuOpen = false;
+        }
+    })
+</script>
 
 </body>
 </html>
