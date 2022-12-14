@@ -15,7 +15,6 @@ header {
     z-index: 1;
 }
   
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -32,12 +31,16 @@ nav {
     border-radius: 5px;  
 }
 
+.link {
+    font-family: 'Lato', sans-serif;
+}
+
 #link1 {
     font-size: xx-large;
     padding-top: 40px;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
   
 #link2 {
@@ -45,7 +48,7 @@ nav {
     padding-top: 40px;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
   
 #link3 {
@@ -53,7 +56,7 @@ nav {
     padding-top: 40px;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
   
 #link4 {
@@ -61,13 +64,13 @@ nav {
     padding-top: 40px;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-
-
-
-
+#btn-box {
+    margin-right: 30%;
+    margin-right: 30%;
+}
 
 
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/Favicon-bountiful foods copy.png">
+    <link rel="stylesheet" href="./fresh.css">
+    <title>Bountiful Foods | Fresh</title>
+</head>
+<body>
+    <div id="navbar">
+        <img id="navLogo" src="../images/bountiful foods logo.jpg" alt="">
+        
+            <a class="link" id="link1" href="../index.html">Home</a>
+            <a class="link" id="link2" href="./fresh.html">Fresh</a>
+            <a class="link" id="link3" href="../about/about.html">About</a>
+    </div>
+
+    <main>
+        <form action="./thankyou.html" method="get">
+            
+            <div class="info-box">
+                    <label for="input-fName">First Name</label><br>
+                    <input id="input-fName" name="input-fName" type="text" placeholder="Micheal"><br>
+                            
+                    <label for="input-email">Email</label><br>
+                    <input id="input-email" name="input-email" type="email" placeholder="MichealScott@DunderMifflin.com" required> <br>
+    
+                    <label for="input-cell">Cell Phone</label><br>
+                    <input id="input-cell" name="input-cell" type="tel" placeholder="(123)-456-7890">
+            </div>
+    
+            <h3 class="section-header">Selection of Fruits</h3>
+            <div class="info-box">
+                        
+                <label for="fruit-selection">Select 3 Fruits to Include in your mix:</label><br>
+    
+                <select name="fruit-selection" id="fruitSelect">
+                    <option value="default">Choose a Fruit</option>
+                </select>
+                <select name="fruit-selection" id="fruitSelect">
+                    <option value="default">Choose a Fruit</option>
+                </select>
+                <select name="fruit-selection" id="fruitSelect">
+                    <option value="default">Choose a Fruit</option>
+                </select>
+    
+                   <input name="date-time" id="date-time" type="hidden">
+
+                   
+            </div><br>
+
+                <textarea name="specialInstruct" id="specInstruct" cols="50" rows="10"></textarea> <br>
+    
+            <button id="submit-btn" type="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+
+
+    <footer>
+        <a id="fbLogo" href="https://www.facebook.com/"><img src="../images/facebookIcon (2).png" alt="facebookLogo"></a>
+        <a id="igLogo" href="https://www.instagram.com/"><img src="../images/instagramIcon (2).png" alt="instagramLogo"></a>
+        <a id="piLogo" href="https://www.pinterest.com/"><img src="../images/pinterestIcon.png" alt="pinterestLogo"></a>
+
+        <p>Bountiful Foods</p>
+        <p>1250 Orchid Dr, Santa Barbara, CA 93111</p>
+        <p>contact@BountifulFoods.com</p>
+        <p>+(805) 123-4567</p>
+        <p>2022 BountifulFoods | Taylor Christensen | WDD230 Final Project</p>
+    </footer>
+
+    <script src="./fresh.js"></script>
+</body>
+</html>

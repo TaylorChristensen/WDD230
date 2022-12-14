@@ -160,6 +160,16 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+
+  .logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;  
+}
 /* This is the section that pertains to the Hamburger Btn */
   .menu-btn {
     position: relative;

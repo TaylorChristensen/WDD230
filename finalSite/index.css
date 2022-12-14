@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+    background-color: #003049;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 75px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#navLogo {
+    height: 75%;
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#link1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#link2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#link3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+a:hover {
+    background-color: #f77f00;
+    border-radius: 10px;
+  }
+
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 750px 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+    #box1{
+        grid-area: 1 / 1 / 2 / 4;
+        text-align: center;
+    }
+
+        #heroImg{
+            width: 100%;
+        }
+
+        #box1 a button {
+            background-color: #003049;
+            color: white;
+            border: black solid 1px;
+            border-radius: 10px;
+            padding: 5px 5px 5px 5px;
+            font-family: 'Lato', sans-serif;
+            position: absolute;
+            top: 47%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    #box2{
+        grid-area: 2 / 1 / 3 / 4;
+        text-align: center;
+    }
+
+        #box2 h1 {
+            color: #003049;
+        }
+        #box2 img {
+            width: 100%;
+        }
+        #box2 p {
+            margin-top: 5px;
+            padding: 10px 20px 10px 20px; 
+            background-color: #003049;
+            color: white;
+        }
+
+    #box3{
+        grid-area: 3 / 1 / 4 / 4;
+        text-align: center;
+        background-color: #EAE2B7;
+        margin: 0px 20px 0px 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: #003049 solid;
+    }
+
+        #box3 h3 {
+            font-size: large;
+            background-color: #003049;
+            color: white;
+            margin-top: 0px;
+            padding: 10px 0px 10px 0px;
+        }
+
+    #box4{
+        grid-area: 4 / 1 / 5 / 4;
+        text-align: center;
+        background-color: #EAE2B7;
+        margin: 0px 20px 0px 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: #003049 solid;
+    }
+
+        #box4 h4 {
+            font-size: large;
+            background-color: #003049;
+            color: white;
+            margin-top: 0px;
+            padding: 10px 0px 10px 0px;
+        }
+
+
+footer {
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+  @media screen and (min-width: 820px) {
+    body {
+        margin: 0% 0% 0% 0%;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #navbar {
+        background-color: #003049;
+        position: sticky;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    #navLogo {
+        width: 200px;
+        grid-area: 1 / 1 / 2 / 2;
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+    
+    .link {
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #link1 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    
+    #link2 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    
+    #link3 {
+        grid-area: 1 / 4 / 2 / 5;
+    }
+    
+
+    a:hover {
+        background-color: #f77f00;
+        border-radius: 10px;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 750px 250px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+        #box1{
+            grid-area: 1 / 1 / 2 / 4;
+            text-align: center;
+        }
+
+            #heroImg{
+                width: 100%;
+            }
+
+            #box1 a button {
+                background-color: #003049;
+                color: white;
+                border: black solid 1px;
+                border-radius: 10px;
+                padding: 10px 25px 10px 25px;
+                font-family: 'Lato', sans-serif;
+                position: absolute;
+                top: 27%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        #box2{
+            grid-area: 2 / 1 / 3 / 4;
+            text-align: center;
+        }
+
+            #box2 h1 {
+                color: #003049;
+            }
+            #box2 img {
+                width: 75%;
+            }
+            #box2 p {
+                margin-top: 5px;
+                padding: 10px 100px 10px 100px; 
+                background-color: #003049;
+                color: white;
+            }
+
+        #box3{
+            grid-area: 3 / 1 / 4 / 3;
+            text-align: center;
+            background-color: #EAE2B7;
+            margin: 0px 10px 0px 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: #003049 solid;
+        }
+
+            #box3 h3 {
+                font-size: large;
+                background-color: #003049;
+                color: white;
+                margin-top: 0px;
+                padding: 10px 0px 10px 0px;
+            }
+
+        #box4{
+            grid-area: 3 / 3 / 4 / 4;
+            text-align: center;
+            background-color: #EAE2B7;
+            margin: 0px 20px 0px 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: #003049 solid;
+        }
+
+            #box4 h4 {
+                font-size: large;
+                background-color: #003049;
+                color: white;
+                margin-top: 0px;
+                padding: 10px 0px 10px 0px;
+            }
+
+    footer {
+        background-color: #003049;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: medium;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    /* This is the section of CSS for the Largest Viewport */
+    body {
+        margin: 0% 0% 0% 0%;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #navbar {
+        background-color: #003049;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    
+    #navLogo {
+        width: 225px;
+        grid-area: 1 / 1 / 2 / 2;
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+    
+    .link {
+        color: white;
+        text-decoration: none;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    
+    #link1 {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    
+    #link2 {
+        grid-area: 1 / 6 / 2 / 7;
+    }
+    
+    #link3 {
+        grid-area: 1 / 7 / 2 / 8;
+    }
+    
+
+    a:hover {
+        background-color: #f77f00;
+        border-radius: 10px;
+      }
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 450px 900px 300px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+        #box1{
+            grid-area: 1 / 1 / 2 / 4;
+            text-align: center;
+        }
+
+            #heroImg{
+                width: 100%;
+            }
+
+            #box1 a button {
+                background-color: #003049;
+                color: white;
+                border: black solid 1px;
+                border-radius: 10px;
+                padding: 10px 25px 10px 25px;
+                font-family: 'Lato', sans-serif;
+                position: absolute;
+                top: 65%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        #box2{
+            grid-area: 2 / 1 / 3 / 4;
+            text-align: center;
+        }
+
+            #box2 h1 {
+                color: #003049;
+            }
+            #box2 img {
+                width: 75%;   
+            }
+            #box2 p {
+                margin-top: 5px;
+               padding: 10px 200px 10px 200px; 
+               background-color: #003049;
+               color: white;
+            }
+
+        #box3{
+            grid-area: 3 / 1 / 4 / 3; 
+            text-align: center;
+            background-color: #EAE2B7;
+            margin: 0px 10px 0px 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: #003049 solid;
+        }
+
+            #box3 h3 {
+                font-size: large;
+                background-color: #003049;
+                color: white;
+                margin-top: 0px;
+                padding: 10px 0px 10px 0px;
+            }
+
+        #box4{
+            grid-area: 3 / 3 / 4 / 4;
+            text-align: center;
+            background-color: #EAE2B7;
+            margin: 0px 20px 0px 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: #003049 solid;
+        }
+
+            #box4 h4 {
+                font-size: large;
+                background-color: #003049;
+                color: white;
+                margin-top: 0px;
+                padding: 10px 0px 10px 0px;
+            }
+
+    
+    footer {
+        background-color: #003049;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    
+  }
