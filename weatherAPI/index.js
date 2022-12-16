@@ -1,8 +1,11 @@
+// This is the Code used to populate the Weather API on the Final Page - for Bountiful Fruits
+
+
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?id=5861897&units=imperial&appid=881c87c9ee9a32a4970c3e0a43ff5871';
+const url = 'https://api.openweathermap.org/data/2.5/weather?id=5334223&units=imperial&appid=881c87c9ee9a32a4970c3e0a43ff5871';
 
 async function apiFetch() {
     try {
