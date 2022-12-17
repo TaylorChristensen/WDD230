@@ -45,6 +45,23 @@ function loadFruitData(data){
     }
 }
 
+function createAlert() {
+
+    const fName = document.getElementById('input-fName').value
+    const email = document.getElementById('input-email').value
+    const phone = document.getElementById('input-cell').value
+    const fruit1 = document.getElementById('fruitSelect1').value
+    const fruit2 = document.getElementById('fruitSelect2').value
+    const fruit3 = document.getElementById('fruitSelect3').value
+    const specInstruct = document.getElementById('specInstruct').value
+
+
+
+    window.alert(fName + "\n" +  email + "\n" + phone + "\n" + fruit1 + "\n" + fruit2 + "\n" + fruit3 + "\n" + specInstruct );
+
+
+}
+
 
 function onFruitChange(ev){
     console.log(`Inside${arguments.callee.name}`)
@@ -54,3 +71,6 @@ function onFruitChange(ev){
 console.log(URL);
 
 var output = document.getElementById("output");
+
+
+
