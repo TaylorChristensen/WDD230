@@ -4,6 +4,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const curHumidity = document.querySelector(".humidity");
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?id=5334223&units=imperial&appid=881c87c9ee9a32a4970c3e0a43ff5871';
 
@@ -35,8 +36,11 @@ function displayResults(weatherData) {
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
+    const hum = weatherData.main.humidity
   
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    
+    curHumidity.innerHTML = "Humidity:" + " " + hum + "%";
   }

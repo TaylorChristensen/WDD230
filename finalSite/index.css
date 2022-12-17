@@ -356,7 +356,7 @@ footer {
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 450px 900px 300px;
+        grid-template-rows: 35% 55% 10%;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
@@ -392,7 +392,7 @@ footer {
                 color: #003049;
             }
             #box2 img {
-                width: 75%;   
+                width: 60%;   
             }
             #box2 p {
                 margin-top: 5px;
@@ -407,7 +407,7 @@ footer {
             background-color: #EAE2B7;
             margin: 0px 10px 0px 20px;
             border-radius: 10px;
-            overflow: hidden;
+            /* overflow: hidden; */
             border: #003049 solid;
         }
 
@@ -418,6 +418,25 @@ footer {
                 margin-top: 0px;
                 padding: 10px 0px 10px 0px;
             }
+
+            #weatherBox {
+                display: flex;
+                margin-left: 20%;
+            }
+
+            #current-temp {
+                font-size: xx-large;
+            }
+
+            .humidity {
+                font-size: x-large;
+            }
+
+            #three-day {
+                font-size: x-large;
+                padding-left: 10%;
+            }
+
 
         #box4{
             grid-area: 3 / 3 / 4 / 4;
