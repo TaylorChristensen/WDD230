@@ -1,5 +1,7 @@
 const URL = 'https://brotherblazzard.github.io/canvas-content/fruit.json'
-const fruitSelect = document.getElementById("fruitSelect")
+const fruitSelect1 = document.getElementById("fruitSelect1")
+const fruitSelect2 = document.getElementById("fruitSelect2")
+const fruitSelect3 = document.getElementById("fruitSelect3")
 
 // console.log(fetch(URL));
 
@@ -16,26 +18,38 @@ function fetchFruitData() {
 }
 
 function loadFruitData(data){
-    console.log(`Inside${arguments.callee.name}`)
+    console.log('1')
     for(row of data)
     {
         opt = document.createElement('option')
-        opt.text = row.text
-        opt.value = row.value
+        opt.text = row.name
 
-        fruitSelect.options.add(opt)
+        fruitSelect1.options.add(opt)
 
     }
+    for(row of data)
+    {
+        opt = document.createElement('option')
+        opt.text = row.name
+
+        fruitSelect2.options.add(opt)
+        
+    }
+    for(row of data)
+    {
+        opt = document.createElement('option')
+        opt.text = row.name
+
+        fruitSelect3.options.add(opt)
+        
+    }
 }
+
 
 function onFruitChange(ev){
     console.log(`Inside${arguments.callee.name}`)
 
 }
-
-
-
-
 
 console.log(URL);
 

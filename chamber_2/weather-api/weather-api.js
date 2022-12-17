@@ -34,6 +34,7 @@ function displayResults(weatherData) {
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
+    const currTemp = weatherData.main.temp
     const wind = weatherData.wind.speed;
     const chill = .7;
   
@@ -41,5 +42,5 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
     windSpeed.textContent = wind;
-    windChill.textContent = currentTemp - (wind * chill);
+    windChill.textContent = (currTemp - (wind * chill)).toFixed(0);
   }

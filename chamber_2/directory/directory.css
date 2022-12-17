@@ -243,12 +243,13 @@ footer {
     }
 
     .cards img {
-        width: 300px;
+        max-width: 300px;
         background-color: #184E77;
         padding: 10px;
     }
 
     .list {
+        display: block;
         width: 100%;
         text-align: center;
     }

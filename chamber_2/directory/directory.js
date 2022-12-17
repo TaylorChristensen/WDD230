@@ -36,7 +36,7 @@ fetch(requestURL)
       listAdress.textContent =  `${business.address}`;
       listPhone.textContent = `${business.phone}`;
       listWebURL.textContent = `${business.webLink}`;
-      listMembership.textContent =`${business.membershipLEvel}`;
+      listMembership.textContent =`${business.membershipLevel}`;
 
       img.setAttribute('src', business.imageURL);
       img.setAttribute('alt',`${business.name}`);
@@ -61,7 +61,7 @@ fetch(requestURL)
     }
 
     const cardsButton = document.querySelector(".card-btn");
-    const listButton = document.querySelector(".list-Btn");
+    const listButton = document.querySelector(".list-btn");
 
     const Cards = document.querySelector(".cards");
     const List = document.querySelector(".list");
